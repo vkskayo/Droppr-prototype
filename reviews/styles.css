@@ -60,69 +60,6 @@ li {
     font-size:large;
 }
 
-.games-li {
-   color: aqua;
-}
-
-.ordering-games {
-    width: 70vw;
-    height: 8vh;
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
-    margin: auto;
-    justify-content: space-around;
-}
-
-.release-date {
-    width: 20%;
-    height: 100%;
-    color: white;
-    background-color: rgb(105, 103, 103);
-    text-align: center;
-    
-
-}
-
-.rate {
-    width: 20%;
-    height: 100%;
-    color: white;
-    background-color: rgb(105, 103, 103);
-    text-align: center;
-}
-
-.genres {
-    width: 20%;
-    height: 100%;
-    color: white;
-    background-color: rgb(105, 103, 103);
-    text-align: center;
-}
-
-.games-list {
-    margin: auto;
-    margin-top: 35px;
-    width: 90vw;
-    text-align: center;
-   
-}
-
-.game {
-    height: 100px;
-    width: 100px;
-    background-color: gray;
-}
-
-.game-grid {
-    margin: auto;
-    width: 70%;
-    display: Flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
 .drop {
     color: white; 
     
@@ -179,7 +116,3 @@ pre {
 .stars {
     color: rgb(195, 195, 0);
 }
-
-
-
-
