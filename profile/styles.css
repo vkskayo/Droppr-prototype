@@ -19,6 +19,7 @@ h2 {
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: #008080;
 }
 
 
@@ -74,15 +75,6 @@ a:hover {
     color: rgb(170, 170, 245)
 }
 
-pre {
-    display: block;
-    height: 20px;
-    width: 90vw;
-    margin: 20px auto;
-    border-width: 5px;
-    border-top: 4px solid rgb(49, 128, 255);
-   
-  }
 
   .profile-section {
     display: flex;
@@ -110,14 +102,36 @@ pre {
   .description-box {
     height: 80%;
     width: 100%;
-    background-color: rgb(156, 154, 154);
+    background-color: rgb(30, 25, 65);
     padding: 10px;
   }
 
   .username {
     font-family: Tahoma;
+    color: aliceblue;
   }
 
   .description-text {
     font-family: tahoma;
+  }
+
+  p {
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .description-text{
+        font-size: 12px;
+    }
+
+    pre {
+        display: block;
+        height: 40px;
+        width: 90vw;
+        margin: auto;
+        border-width: 5px;
+        border-top: 4px solid rgb(66, 55, 55);
+       
+      }
   }
