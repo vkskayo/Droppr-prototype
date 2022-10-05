@@ -116,3 +116,7 @@ pre {
 .stars {
     color: rgb(195, 195, 0);
 }
+
+.image-review:hover {
+    border: 3px solid black;
+}
