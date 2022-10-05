@@ -73,3 +73,51 @@ a {
 a:hover {
     color: rgb(170, 170, 245)
 }
+
+pre {
+    display: block;
+    height: 20px;
+    width: 90vw;
+    margin: 20px auto;
+    border-width: 5px;
+    border-top: 4px solid rgb(49, 128, 255);
+   
+  }
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+
+  .profile-photo {
+    width: 30vw;
+    height: 250px;
+    object-fit: contain;
+  }
+
+  .username-and-description {
+    width: 50vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .description-box {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(156, 154, 154);
+    padding: 10px;
+  }
+
+  .username {
+    font-family: Tahoma;
+  }
+
+  .description-text {
+    font-family: tahoma;
+  }
