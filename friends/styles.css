@@ -73,3 +73,29 @@ a {
 a:hover {
     color: rgb(170, 170, 245)
 }
+
+.user-friend {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+
+}
+
+.title {
+    font-family: tahoma;
+    margin-left: 20px;
+    font-size:xx-large;
+}
+
+.username-friend {
+    font-family: Tahoma;
+    font-size:x-large;
+}

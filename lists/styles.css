@@ -73,3 +73,14 @@ a {
 a:hover {
     color: rgb(170, 170, 245)
 }
+
+.create-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.new-text {
+    margin-top: 20px;
+}
