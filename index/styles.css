@@ -136,3 +136,7 @@ li {
  a:hover {
      color: rgb(170, 170, 245)
  }
+
+ .game:hover {
+    border: 3px solid black;
+ }
