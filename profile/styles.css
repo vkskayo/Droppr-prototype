@@ -104,6 +104,7 @@ a:hover {
     width: 100%;
     background-color: rgb(30, 25, 65);
     padding: 10px;
+    position: relative;
   }
 
   .username {
@@ -117,6 +118,15 @@ a:hover {
 
   p {
     color: white;
+  }
+
+  .edit-description {
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+    right: 95%;
+    top: 90%;
+    position: absolute;
   }
 
   @media only screen and (max-width: 600px) {
@@ -133,5 +143,12 @@ a:hover {
         border-width: 5px;
         border-top: 4px solid rgb(66, 55, 55);
        
+      }
+
+      .edit-description {
+        color: aliceblue;
+        right: 85%;
+        top: 90%;
+        position: absolute;
       }
   }
