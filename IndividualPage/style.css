@@ -9,7 +9,7 @@ h1, li {
     color: black;
     font-family: Tahoma;
     padding-top: 10px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 h2 {
@@ -104,7 +104,7 @@ section img {
     display: inline;
 }
 
-#HeadDescreption {
+.HeadDescreption {
     display: flex;
     margin-top: 5vh;
     margin-bottom: 3vh;
@@ -112,7 +112,7 @@ section img {
     align-content: space-around;
 }
 
-#HeadDescreption h5 {
+.HeadDescreption h5 {
     display: inline;
     margin-left: 5vw;
     font-size: 110%;
@@ -153,4 +153,39 @@ button:hover{
     box-shadow: 0px 0.5em 0.5em  -0.4em  #ffd500;
     transform: translateY(-0.25em);
     cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    #Game-Content {
+        display: flexbox;
+        flex-direction: column;
+        text-align: center;
+    }
+    .HeadDescreption {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #Game-Informations {
+        width: 100%;
+        margin: 10px;
+    }
+
+    section {
+        margin: 15px;
+    }
+
+    h1, li {
+        color: black;
+        font-family: Tahoma;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+    .Botoes {
+        display: flexbox;
+        margin: 10px;
+        margin-top: 30px;
+    }
 }
