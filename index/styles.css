@@ -14,11 +14,13 @@ h1, li {
 h2 {
     font-family: Tahoma;
     margin-bottom: 20px;
+    color: aliceblue;
 }
 
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: #008080;
 }
 
 
@@ -135,4 +137,8 @@ li {
  
  a:hover {
      color: rgb(170, 170, 245)
+ }
+
+ .game:hover {
+    border: 3px solid black;
  }

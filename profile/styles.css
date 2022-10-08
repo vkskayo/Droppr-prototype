@@ -19,6 +19,7 @@ h2 {
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: #008080;
 }
 
 
@@ -73,3 +74,81 @@ a {
 a:hover {
     color: rgb(170, 170, 245)
 }
+
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+
+  .profile-photo {
+    width: 30vw;
+    height: 250px;
+    object-fit: contain;
+  }
+
+  .username-and-description {
+    width: 50vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .description-box {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(30, 25, 65);
+    padding: 10px;
+    position: relative;
+  }
+
+  .username {
+    font-family: Tahoma;
+    color: aliceblue;
+  }
+
+  .description-text {
+    font-family: tahoma;
+  }
+
+  p {
+    color: white;
+  }
+
+  .edit-description {
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+    right: 95%;
+    top: 90%;
+    position: absolute;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .description-text{
+        font-size: 12px;
+    }
+
+    pre {
+        display: block;
+        height: 40px;
+        width: 90vw;
+        margin: auto;
+        border-width: 5px;
+        border-top: 4px solid rgb(66, 55, 55);
+       
+      }
+
+      .edit-description {
+        color: aliceblue;
+        right: 85%;
+        top: 90%;
+        position: absolute;
+      }
+  }

@@ -11,14 +11,16 @@ h1, li {
     padding-top: 10px;
 }
 
-h2 {
+.title {
     font-family: Tahoma;
-    margin-bottom: 20px;
+    color: aliceblue;
+    margin: 20px 12px;
 }
 
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: #008080;
 }
 
 
@@ -72,4 +74,49 @@ a {
 
 a:hover {
     color: rgb(170, 170, 245)
+}
+
+.create-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.new-text {
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: tahoma;
+}
+
+.create-icon {
+    color: rgb(182, 214, 241);
+}
+
+.table-lists {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 12px;
+    gap: 20px;
+}
+
+.list-created {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 2px solid aliceblue;
+    padding: 10px;
+}
+
+.edit {
+    color: rgb(182, 214, 241);
+}
+
+.remove {
+    color: rgb(182, 214, 241);
+}
+
+.show {
+    color: rgb(182, 214, 241);
 }

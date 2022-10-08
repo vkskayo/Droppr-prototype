@@ -13,7 +13,7 @@ h1, li {
 
 h2 {
     font-family: Tahoma;
-    margin-bottom: 20px;
+    color: aliceblue;
 }
 
 body {
@@ -75,30 +75,61 @@ a:hover {
     color: rgb(170, 170, 245)
 }
 
-.user-friend {
+.game-information {
     display: flex;
+    gap: 7px;
+    width: 80vw;
+    height: 300px;
+    margin: auto;
+}
+
+.photo-and-average {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-information {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
+}
+
+.title-year-creator {
+    display: flex;
+    gap: 15px;
     align-items: center;
-    margin: 30px 20px;
 }
 
-.photo {
-    width: 100px;
-    height: 100px;
+.game-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+
+.game-photo {
+    width: 140px;
+    height: 200px;
     background-color: gray;
-    border-radius: 50%;
-
 }
 
-.title {
+p {
     font-family: tahoma;
-    margin-left: 20px;
-    font-size:xx-large;
     color: aliceblue;
 }
 
-.username-friend {
-    font-family: Tahoma;
-    font-size:x-large;
-    color: aliceblue;
-}
+@media only screen and (max-width: 600px) {
+
+    p{
+        font-size: 12px;
+    }
+
+  
+
+  }
+
+
+
+
+

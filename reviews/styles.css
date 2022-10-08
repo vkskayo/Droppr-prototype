@@ -19,6 +19,7 @@ h2 {
 body {
     width: 100%;
     overflow-x: hidden;
+    background-color: #008080;
 }
 
 
@@ -74,15 +75,7 @@ a:hover {
     color: rgb(170, 170, 245)
 }
 
-pre {
-    display: block;
-    height: 80px;
-    width: 90vw;
-    margin: auto;
-    border-width: 5px;
-    border-top: 4px solid rgb(49, 128, 255);
-   
-  }
+
 
   .reviews {
     height: 200px;
@@ -102,7 +95,7 @@ pre {
   }
 
   .h1-review {
-    color: rgb(20, 4, 120);
+    color: aliceblue;
   }
 
 
@@ -116,3 +109,30 @@ pre {
 .stars {
     color: rgb(195, 195, 0);
 }
+
+.image-review:hover {
+    border: 3px solid black;
+}
+
+p {
+    font-family: tahoma;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    p{
+        font-size: 14px;
+    }
+
+    pre {
+        display: block;
+        height: 40px;
+        width: 90vw;
+        margin: auto;
+        border-width: 5px;
+        border-top: 4px solid rgb(66, 55, 55);
+       
+      }
+  }
